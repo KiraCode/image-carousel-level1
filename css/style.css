@@ -37,7 +37,7 @@ body {
 }
 
 .carousel-slide {
-  height: calc(100vh-289px);
+  height: calc(100vh - 289px);
   width: 100%;
   border-radius: 6px;
   object-fit: contain;
@@ -50,7 +50,7 @@ body {
   width: auto;
   padding: 16px;
   font-size: 20px;
-  color: #fff;
+  color: white;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.3);
   /* border: none; */
@@ -109,7 +109,7 @@ body {
     flex-direction: column;
   }
   .carousel-slide {
-    height: calc(100vh-319px);
+    height: calc(100vh - 319px);
   }
   .project-title {
     font-size: 32px;
