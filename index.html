@@ -18,8 +18,8 @@
       <!-- carousel slides with next and previous button-->
 
       <div class="carousel-slides-container">
-        <button class="prev-btn">
-          <img src="./assets/icons/arrow-prev.svg" alt="" />
+        <button class="prev-btn" onclick="slideChange(-1)">
+          <img src="./assets/icons/arrow-prev.svg" alt="prev" />
         </button>
 
         <img
@@ -40,20 +40,21 @@
           class="carousel-slide"
         />
 
-        <button class="next-btn">
+        <button class="next-btn" onclick="slideChange(1)">
           <img src="./assets/icons/arrow-next.svg" alt="next" />
         </button>
       </div>
 
       <!-- carousel dots -->
       <div class="carousel-dots">
-        <span class="dot">0</span>
-        <span class="dot">0</span>
-        <span class="dot">0</span>
+        <span class="dot" onclick="changeSlide(0)"></span>
+        <span class="dot" onclick="changeSlide(1)"></span>
+        <span class="dot" onclick="changeSlide(2)"></span>
       </div>
     </section>
 
     <!-- 3rd section -->
     <p class="copyright-text">&#169; 2025 WSA. All Rights Reserved</p>
+    <script src="./javascript/script.js"></script>
   </body>
 </html>
