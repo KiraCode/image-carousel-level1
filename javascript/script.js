@@ -30,7 +30,7 @@ function slideChange(n) {
 }
 
 function currentSlide(i) {
-  slideShow((currentSlideIndex = 1));
+  slideShow((currentSlideIndex = i));
 }
 
 slideShow();
